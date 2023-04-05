@@ -33,20 +33,35 @@ public class NumbersDemo {
         displayNumberSquared(number1);
         displayNumberSquared(number2);
     }
-
-    private static void displayTwiceTheNumber(int number) {
+//
+//    private static void displayTwiceTheNumber(int number) {
+//        int doubleTheNumber = number*2;
+//        System.out.println("The doubled value of " + number + " is " + doubleTheNumber);
+//    }
+//
+//    private static void displayNumberPlusFive(int number) {
+//        int numberPlusFive = number+5;
+//        System.out.println("Increasing the number " + number + " by 5 gives " + numberPlusFive);
+//    }
+//
+//    private static void displayNumberSquared(int number) {
+//        int numberSquared = number*number;
+//        System.out.println("The square of the number " + number + " is " + numberSquared);
+//    }
+    
+    public static int displayTwiceTheNumber(int number) {
         int doubleTheNumber = number*2;
-        System.out.println("The doubled value of " + number + " is " + doubleTheNumber);
+        return doubleTheNumber;
     }
 
-    private static void displayNumberPlusFive(int number) {
+    public static int displayNumberPlusFive(int number) {
         int numberPlusFive = number+5;
-        System.out.println("Increasing the number " + number + " by 5 gives " + numberPlusFive);
+        return numberPlusFive;
     }
 
-    private static void displayNumberSquared(int number) {
+    public static int displayNumberSquared(int number) {
         int numberSquared = number*number;
-        System.out.println("The square of the number " + number + " is " + numberSquared);
+        return numberSquared;
     }
     
 }
